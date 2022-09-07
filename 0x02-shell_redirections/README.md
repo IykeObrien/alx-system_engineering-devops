@@ -1,1 +1,1 @@
-Hello world scrip
+Hello world script
