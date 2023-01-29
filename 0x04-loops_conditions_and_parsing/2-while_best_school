@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-#Creating a script that uses a while loop
-x=1
-while [ $x -le 10 ]
+#Prints "Best School" 10 times using a while loop
+i=0
+while [ $i -lt 10 ]
 do
-    echo "Holberton School"
-    x=$(( x + 1 ))
+    echo "Best School"
+    i=$((i+1))
 done
