@@ -16,7 +16,7 @@ Bash function
 Tasks ✔️
 0-world wide web
 1-haproxy ssl termination
-100-redirect http to https
+100-redirecthttp to https
 Requirements
 Allowed editors: vi, vim, emacs
 All your files will be interpreted on Ubuntu 16.04 LTS
@@ -52,4 +52,4 @@ $ cat cert key 1 cert key 2 > /etc/ssl/private/any desired name.pem
 $ sudo service haproxy reload
 If you don't have HAProxy installed just copy and run this on your terminal and save yourself the hassle
 
-$ wget -O haproxy https://github.com/sammykingx/alx-system engineering-devops/raw/master/0x0F-load balancer/instal lhaproxy safely && -
+$ wget -O haproxy https://github.com/sammykingx/alx-system engineering-devops/raw/master/0x0F-load balancer/install haproxy safely &&
