@@ -40,10 +40,10 @@ frontend  IykeObrien-frontend-http
         default_backend IykeObrien-backend
 
 frontend ehoneah-frontend-https
-	bind *:443 ssl crt /etc/haproxy/certs/www.IykeObrien.tech.pem
+	bind *:443 ssl crt /etc/haproxy/certs/www.iykeobrien.tech.pem
 	http-request set-header X-Forwarded-Proto https
 	http-request redirect scheme https code 301 unless { ssl_fc }
-	default_backend ehoneah-backend
+	default_backend iykeobrien-backend
 
 backend ehoneah-backend
         balance roundrobin
