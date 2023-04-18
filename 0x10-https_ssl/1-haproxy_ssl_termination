@@ -40,9 +40,9 @@ frontend  ehoneah-frontend-http
         default_backend ehoneah-backend
 
 frontend ehoneah-frontend-https
-	bind *:443 ssl crt /etc/haproxy/certs/www.ehoneah.tech.pem
+	bind *:443 ssl crt /etc/haproxy/certs/www.iykeobrien.tech.pem
 	http-request set-header X-Forwarded-Proto https
-	default_backend ehoneah-backend
+	default_backend iykeobrien-backend
 
 backend ehoneah-backend
         balance roundrobin
